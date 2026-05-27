@@ -1,4 +1,4 @@
-const API_URL = "https://todo-backend-l5rs.onrender.com";
+const API_URL = "https://todo-backend-l5rs.onrender.com/todos";
 
 // GET TODOS
 export const getTodos = async () => {

@@ -29,7 +29,7 @@ app.get("/todos", async (req, res) => {
 app.post("/todos", async (req, res) => {
 
   const newTodo = new Todo({
-    text: req.body.text,
+    task: req.body.task,
   });
 
   await newTodo.save();
@@ -43,7 +43,7 @@ app.put("/todos/:id", async (req, res) => {
 
   const updatedTodo = await Todo.findByIdAndUpdate(
     req.params.id,
-    { text: req.body.text },
+    { task: req.body.task },
     { new: true }
   );
 
