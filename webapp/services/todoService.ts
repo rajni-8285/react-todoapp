@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/todos";
+const API_URL = "https://todo-backend-l5rs.onrender.com";
 
 // GET TODOS
 export const getTodos = async () => {

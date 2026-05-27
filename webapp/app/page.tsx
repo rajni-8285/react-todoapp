@@ -77,7 +77,7 @@ export default function Home() {
     <div className="p-10">
 
       <h1 className="text-3xl font-bold mb-5">
-        Standard Todo App
+         Todo App
       </h1>
 
       <TodoForm
